@@ -5,6 +5,7 @@
 </head>
 <body ng-app="app"> -->
 
+<<<<<<< Updated upstream
   <div ng-controller="NewMatchController" ng-init="getUsers()">
     
     <header>New Game</header>
@@ -12,6 +13,17 @@
     <input ng-model="search" type="text">
     
     <table> 
+=======
+  <div id="display-username" class="col-md-6 col-md-offset-3" ng-controller="NewMatchController" ng-init="getUsers()">
+
+    <h1>New Match</h1>
+    <input class="btn btn-default" type='submit' value="current matches" ng-click="newMatch()">
+    <br><h3>Beats with</h3>
+
+    <input ng-model="search.username" type="text">
+
+    <table class="table">
+>>>>>>> Stashed changes
       <tr ng-repeat="user in users | filter:search">
         <td ng-click="challenge(user)">{{ user.username }}</td>
       </tr>

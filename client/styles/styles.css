@@ -35,6 +35,25 @@ h2 {
 
 }
 
+<<<<<<< Updated upstream
+=======
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.center-header {
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 10vw;*/
+  /*height: 10vh;*/
+  text-align: center;
+}
+
+>>>>>>> Stashed changes
 .container-fluid {
 
   padding: 0;
@@ -51,8 +70,6 @@ h2 {
   padding-left: 50px;
 
   padding-right: 50px;
-
-  color: #fff;
 
 }
 
@@ -516,7 +533,7 @@ div {
 
 .inner {
 
-  background-color: gray;
+  background-color: white;
 
 }
 

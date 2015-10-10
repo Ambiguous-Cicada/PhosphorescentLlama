@@ -1,13 +1,18 @@
-<div class="matches-list" ng-controller="currentMatchesController" ng-init="refresh()">
-  <center>
-    <h2>Current Matches</h2>
-    <input class="button" type="button" value="Refresh" ng-click="refresh()">
-    <input class="button" type="button" value="New Match" ng-click="newMatch()">
-    <ul>
-      <li class="matches" ng-repeat="match in matches">
-        <a ng-click="goToMatch(match._id)">{{match.opponent.username}}</a> Current Level: {{match.user.currentLevel}}, Status: {{matchReady(match.user.currentLevel, match.opponent.currentLevel)}}
-      </li>
+<div class="matches-list col-md-6 col-md-offset-3" ng-controller="currentMatchesController" ng-init="refresh()">
+    <h1>Current Matches</h1>
+    <input class="btn btn-default" type="button" value="Refresh" ng-click="refresh()">
+    <input class="btn btn-default" type="button" value="New Match" ng-click="newMatch()">
+    <input class="btn btn-default" type="button" value="logout" ng-click="logout()">
+    <br><h3>Beats with</h3>
+    <table>
+      <tr class="table" ng-repeat="match in matches">
+        <td>
+          <a href="" ng-click="goToMatch(match._id)">{{match.opponent.username}}, on level {{match.user.currentLevel}}: {{matchReady(match.user.currentLevel, match.opponent.currentLevel)}}
+          </a>
+        </td>
+      </tr>
+
+    </table>
     </ul>
-  </center>
 </div>
 
