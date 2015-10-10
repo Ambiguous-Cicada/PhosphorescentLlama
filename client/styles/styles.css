@@ -68,7 +68,15 @@ h2 {
 
 }
 
+.matches-list {
+  margin: 10%;
+}
 
+.matches {
+  list-style-type: none;
+  font-size: 19px;
+  color: #bbbbbb;
+}
 /* ngtzit text property */
 
 .navbar-brand {
