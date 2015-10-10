@@ -6,6 +6,12 @@ app.controller('currentMatchesController', ['httpFactory', '$state', '$scope', '
       });
   };
 
+  $scope.matchReady = function (userLevel, oppLevel) {
+    return userLevel > oppLevel ?
+      'Ready to Play!' :
+      'Waiting for opponent';
+  };
+
   $scope.goToMatch = function (matchId) {
     console.log(matchId);
     $rootScope.currentMatchId = matchId;
