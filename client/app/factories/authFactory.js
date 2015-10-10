@@ -23,7 +23,7 @@ app.factory('AuthFactory', ['$rootScope', 'httpFactory', function ($rootScope, h
       });
   };
 
-  authFact.logout = function () {
+  $rootScope.logout = authFact.logout = function () {
     return httpFactory.logout().then(function (res) {
       $rootScope.user = {};
       return res;
