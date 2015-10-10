@@ -1,12 +1,12 @@
 # Project Name
 
-ngtzit
+Beats! (with Friends)
 
 ## Team
 
-  - __Product Owner__: Kyle Cho
-  - __Scrum Master__: Naomi Jacobs
-  - __Development Team Members__: Kyle Cho, Naomi Jacobs, Jordan Olthoff, Rodrigo Delgado
+  - __Product Owner__: JT Knox
+  - __Scrum Master__: Niraj Vora
+  - __Development Team Members__: Michael Junio, Dan O'Leary, Niraj Vora, JT Knox
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ ngtzit
 ## Usage
 
 You don't even have to hit play. Just play!
-[Go to play!](http://www.ngtzit.com)
+[Go to play!](http://beats-with-friends.herokuapp.com)
 
 ## Requirements
 
@@ -70,7 +70,7 @@ bower install
 
 ### Roadmap
 
-View the project roadmap [here](https://github.com/PhosphorescentLlama/PhosphorescentLlama/issues)
+View the project roadmap [here](https://github.com/Ambiguous-Cicada/PhosphorescentLlama/issues)
 
 
 ## Contributing
